@@ -85,11 +85,12 @@ export default function SignIn() {
           />
           <FacebookLogin
             appId="1406029036212285"
-            autoLoad={true}
+            //autoLoad={true}
             fields="name,email,picture"
             textButton="Inicia sesión con Facebook"
             cssClass="my-facebook-button-class"
             icon="fa-facebook"
+            version="3.1"
             callback={resFb}
           />
           {/* <TwitterLogin
